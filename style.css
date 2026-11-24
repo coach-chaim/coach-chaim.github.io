@@ -21,3 +21,6 @@ h1{margin-left:auto;margin-right:auto}
 h1 .he{margin-left:auto;margin-right:auto}
 .sub{margin-left:auto;margin-right:auto}
 .hero .pasuk{margin-left:auto;margin-right:auto}
+/* center the tafkid line */
+.tafkid-wrap{text-align:center}
+.tafkid{margin-left:auto;margin-right:auto}
