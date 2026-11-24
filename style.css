@@ -13,3 +13,11 @@ section:not(.hero){scroll-margin-top:20px}.twocol{display:grid;grid-template-col
 @media(max-width:680px){nav a{min-height:44px;display:flex;align-items:center}nav{margin-top:6px}header .wrap{padding-bottom:2px}}
 .tafkid-wrap{background:var(--white);color:var(--ink);padding:80px 0 90px}
 @media(max-width:680px){.tafkid-wrap{padding:58px 0 63px}}
+/* center the hero heading block */
+.hero .wrap{text-align:center}
+.hero-intro{max-width:790px;margin-left:auto;margin-right:auto}
+h1{margin-left:auto;margin-right:auto}
+.hero-en{margin-left:auto;margin-right:auto}
+h1 .he{margin-left:auto;margin-right:auto}
+.sub{margin-left:auto;margin-right:auto}
+.hero .pasuk{margin-left:auto;margin-right:auto}
