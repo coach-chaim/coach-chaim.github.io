@@ -11,3 +11,5 @@ section:not(.hero){scroll-margin-top:20px}.twocol{display:grid;grid-template-col
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media(max-width:350px){.pasuk .he{font-size:17px}nav{gap:8px;font-size:10px}.nav-book{font-size:9px}h1{font-size:55px}h1 .he{font-size:41px}.closing .he{font-size:27px}}
 @media(max-width:680px){nav a{min-height:44px;display:flex;align-items:center}nav{margin-top:6px}header .wrap{padding-bottom:2px}}
+.tafkid-wrap{background:var(--white);color:var(--ink);padding:80px 0 90px}
+@media(max-width:680px){.tafkid-wrap{padding:58px 0 63px}}
