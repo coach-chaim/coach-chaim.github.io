@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Frank+Ruhl+Libre:wght@400;500&family=DM+Serif+Display&display=swap');
+@font-face{font-family:'Domaine Display';src:url('fonts/DomaineDisp-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Domaine Display';src:url('fonts/DomaineDisp-Semibold.otf') format('opentype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Domaine Display';src:url('fonts/DomaineDisp-Bold.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
 :root{--display:'Domaine Display','DM Serif Display',Georgia,serif;--body:'Raleway',Arial,sans-serif;--ink:#3f3b58;--deep:#322f47;--gold:#f7b561;--white:#fbf9f6;--muted:#d3cfdc;--line:rgba(255,255,255,.17)}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:115px}body{margin:0;background:var(--ink);color:var(--white);font-family:var(--body);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--gold);outline-offset:7px}a:hover{color:var(--gold)}p,h1,blockquote{margin:0}.wrap{max-width:1200px;margin:0 auto;padding:0 60px}.he,.he-src{font-family:'Frank Ruhl Libre',Georgia,serif;direction:rtl;unicode-bidi:isolate}
 header{position:sticky;top:-32px;z-index:5;background:var(--ink);border-bottom:1px solid var(--line);padding-top:32px}.corner-mark{position:absolute;top:13px;font-size:10px;font-weight:600;letter-spacing:2px}.corner-mark.left{left:28px}.corner-mark.right{right:28px;font-size:12px;letter-spacing:1px}header .wrap{display:flex;align-items:center;min-height:85px;gap:25px;position:relative}.wordmark{font-family:var(--display);font-size:32px;white-space:nowrap}.wordmark em{font-style:normal;color:var(--gold)}.brandline{font-size:9px;letter-spacing:1.3px;line-height:1.7;max-width:130px;text-transform:uppercase;color:var(--muted)}nav{margin-left:auto;display:flex;gap:27px;align-items:center;font-size:12px}nav a{padding:15px 0}.nav-book{border:1px solid #a9947d;padding:13px 16px;color:var(--gold)}
@@ -25,5 +28,5 @@ h1 .he{margin-left:auto;margin-right:auto}
 .tafkid-wrap{text-align:center}
 .tafkid{margin-left:auto;margin-right:auto}
 
-.brandline{font-size:0;max-width:none}.brandline img{height:34px;width:auto;display:block;opacity:.95}footer .brandline-f img{height:30px}h1,.label,.tafkid,.band p,.closing .wrap>p:first-child,.wordmark{font-weight:400}.prose p:last-child{font-weight:400}
+.brandline{font-size:0;max-width:none}.brandline img{height:34px;width:auto;display:block;opacity:.95}footer .brandline-f img{height:30px}h1,.label,.tafkid,.band p,.closing .wrap>p:first-child,.wordmark,.prose p:last-child,footer .fw{font-weight:600}
 @media(max-width:680px){.brandline img{height:22px}.brandline{display:block}}
