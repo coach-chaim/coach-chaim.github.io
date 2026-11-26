@@ -41,8 +41,8 @@ h1 .he{font-size:calc(var(--S) * .78);margin-top:calc(var(--S) * .22)}
 .pasuk{margin-top:clamp(24px,5vh,52px)}
 .hero-art{top:auto;bottom:clamp(30px,6vh,65px)}
 }
-@media(min-width:681px) and (max-width:1200px){.hero-art{opacity:.14}}
+@media(min-width:681px) and (max-width:1200px){.hero-art{opacity:.22}}
 @media(min-width:1201px) and (max-width:1500px){.wrap{padding-left:48px;padding-right:48px}}
 @media(min-width:1400px){.hero .wrap{min-height:0;padding-top:clamp(36px,8vh,100px)}}
-@media(min-width:681px) and (max-height:760px){.hero-art{display:none}}
 @media(min-width:681px) and (max-width:1000px){.brandline{display:block}.brandline img{height:26px}.wordmark{font-size:27px}nav{gap:14px;font-size:11px}.nav-book{padding:11px 12px}}
+@media(min-width:681px) and (max-height:800px){.hero-art{transform:scale(.7) skewY(-13deg);transform-origin:right bottom;right:48px}}@media(min-width:681px) and (max-width:1000px){.hero-art{transform:scale(.6) skewY(-13deg);transform-origin:right bottom;right:24px}}
